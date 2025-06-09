@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Concessionária</title>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <span>SP CONCESSIONÀRIA</span>
+  </div>
+
+  <div class="menu">
+    <a href="#">Carros</a>
+    <a href="#">Motos</a>
+    <a href="#">Serviços</a>
+    <a href="#">Ofertas</a>
+    <a href="login.html">Login</a>
+  </div>
+
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1>Encontre o carro dos seus sonhos</h1>
+      <p>Com os melhores preços, condições de pagamento e qualidade garantida. Aceleramos o seu sonho!</p>
+      <a href="#ofertas" class="cta-button">Veja Nossas Ofertas</a>
+    </div>
+  </div>
+
+  <div class="car-section" id="ofertas">
+    <h2>Carros em Destaque</h2>
+    <div class="car-list">
+      <div class="car-card">
+        <img src="./img/car1.jpg" alt="Carro 1">
+        <h3>Modelo 1</h3>
+        <p>Design arrojado e desempenho impressionante, perfeito para quem busca velocidade e adrenalina. Motor potente e interior sofisticado, oferecendo uma experiência única de direção.</p>
+        <a href="#" class="cta-button">Saiba Mais</a>
+      </div>
+      <div class="car-card">
+        <img src="./img/car2.jpg" alt="Carro 2">
+        <h3>Modelo 2</h3>
+        <p>Conforto e versatilidade para a cidade e estrada. Amplo espaço interno, tecnologia de ponta e motor econômico, ideal para famílias e aventuras urbanas.</p>
+        <a href="#" class="cta-button">Saiba Mais</a>
+      </div>
+      <div class="car-card">
+        <img src="./img/car3.jpg" alt="Carro 3">
+        <h3>Modelo 3</h3>
+        <p>Sofisticação e elegância em cada detalhe. Conforto excepcional, desempenho equilibrado e acabamentos refinados, proporcionando uma viagem tranquila e cheia de estilo.</p>
+        <a href="#" class="cta-button">Saiba Mais</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="content" id="content">
+    <h2>Por que escolher nossa concessionária?</h2>
+    <p>Aqui na SP CONCESSIONÀRIA, garantimos a melhor experiência de compra para nossos clientes. Seja qual for seu desejo, temos o carro perfeito para você!</p>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.menu').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>Cadastro - SP Concessionária</title>
+</head>
+<body>
+  <div class="top-bar">
+    <span>SP CONCESSIONÀRIA</span>
+  </div>
+
+  <div class="form-container">
+    <h2>Cadastro</h2>
+    <form action="cadastro.php" method="post">
+      <input type="text" placeholder="Nome completo" name="nome" required >
+      <input type="email" placeholder="Email" name="email" required >
+      <input type="password" placeholder="Senha" name="senha" required >
+      <button type="submit" class="cta-button">Cadastrar</button>
+    </form>
+    <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+  </div>
+</body>
+</html>
